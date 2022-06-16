@@ -52,6 +52,10 @@ public class Farmaceutica {
     @Deprecated
     public Farmaceutica() { }
 
+    public Farmaceutica(Long farmaceuticaId) {
+        this.id = farmaceuticaId;
+    }
+
     public Long getId() {
         return id;
     }

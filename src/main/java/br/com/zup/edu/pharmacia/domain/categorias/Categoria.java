@@ -31,6 +31,10 @@ public class Categoria {
         this.nome = Objects.requireNonNull(nome, "nome nao pode ser nulo");
     }
 
+    public Categoria(Long categoriaId) {
+        this.id = categoriaId;
+    }
+
     public Long getId() {
         return id;
     }
